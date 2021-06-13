@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 130px;
+    text-align: center;
+}
+
+.text{
+    color: rgb(210, 229, 245);
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 170px;
+    filter: blur(0px);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    transition: height 2s;
+    overflow: hidden;
+    filter: blur(2px);
+  }
+  
+  #div1 {
+      transition-timing-function: linear;
+      background-image: url("images/anime-anime-boys-picture-in-picture-kimetsu-no-yaiba-kamado-tanjirō-hd-wallpaper-preview.jpg");
+      background-position-x: center;
+      margin-top: 100px;
+      margin-left: 190px;
+    }
+  #div2 {
+      transition-timing-function: ease;
+      background-image: url("images/download.jpg");
+      margin-top: -215px;
+      margin-left: 430px;
+    }
+  #div3 {
+      transition-timing-function: ease-in;
+      background-image: url("images/images.jpg");
+      margin-top: -215px;
+      margin-left: 660px;
+    }
+  #div4 {
+      transition-timing-function: ease-out;
+      background-image: url("images/images\ \(1\).jpg");
+      margin-top: -215px;
+      margin-left: 890px;
+    }
+  #div5 {
+      transition-timing-function: ease-in-out;
+      background-image: url("images/pexels-photo-799443.jpeg");
+      margin-top: -215px;
+      margin-left: 1115px;
+    }
+  
+  div:hover {
+    height: 300px;
+    filter: blur(0px);
+    transform: scale(1.15);
+  }
+
+  p {
+      width: 180px;
+    color: aliceblue;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(20, end),
+      blink-caret .65s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 180px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }

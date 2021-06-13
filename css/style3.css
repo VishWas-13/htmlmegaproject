@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+header{
+    height: fit-content;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+header h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 42px;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+#im{
+    margin-left: 74em;
+    margin-top: -9em;
+    margin-bottom: 8em;
+    background: transparent;
+    filter: invert(100%);
+}
+
+header h3{
+    margin-left: 56.9em;
+    margin-top: -7em;
+    font-size: 20px;
+}
+
+header h5{
+    margin-left: 71em;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hrule{
+    border: solid red;
+    margin-left: 6em;
+    margin-right: 9em;
+    margin-top: -1em;
+}
+
+main{
+    width: 78%;
+    margin-top: 4em;
+    margin-left: 8em;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 2em;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    list-style: square;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: aquamarine;
+}

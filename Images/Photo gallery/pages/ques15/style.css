@@ -1,0 +1,47 @@
+html{
+    background: #000;
+}
+
+h1{
+    margin-left: 20px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: aquamarine;
+    padding-left: 30px;
+}
+
+#box{
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#box1{
+    margin-left: 45px;
+    border-radius: 10px;
+}
+#box2{
+    margin-left: 28px;
+    border-radius: 10px;
+}
+#box3{
+    margin-left: 36px;
+    border-radius: 10px;
+}
+
+#gender{
+    margin-top: -35px;
+    margin-left: 95px;
+}
+#genderf{
+    margin-top: -35px;
+    margin-left: 185px;
+}
+
+#date{
+    margin-left: 12px;
+}
+
+#submit{
+    margin-left: 30px;
+}

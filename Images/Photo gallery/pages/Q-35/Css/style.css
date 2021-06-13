@@ -1,0 +1,132 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.wrapper{
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 50em;
+    background: linear-gradient(to right, #b40054, #00b5ec);
+    transition: transform .5s ease-in-out;
+    margin-left: 15px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.wrapper:hover{
+    background: linear-gradient(to right, #0090b4, #f1a500);
+    transform: scale(0.97);
+    transition: trasnform .5 ease-out;
+}
+
+.container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(7, 70px);
+    grid-template-rows: minmax(70px, auto) repeat(15, 70px);
+    margin-top: 70px;
+    margin-left: 130px;
+    margin-right: 132px;
+    height: 1px;
+}
+.container > button 
+{
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+.container > button:hover{
+    background-color: rgba(255, 189, 203, 0.9);
+    transform: scale(0.9);
+}
+
+#E, #LN10, #SQRT1_2{
+    grid-column: span 2;
+}
+#refresh{
+    grid-column: span 3;
+}
+.menu{
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.topic{
+    background: linear-gradient(to right, #f1a500, #b40054);
+    width: 46%;
+    height: 50em;
+    margin-left: 52.5em;
+    margin-top: -50em;
+    scroll-behavior: smooth;
+    scroll-snap-stop: always;
+    margin-bottom: 0px;
+    overflow-y: scroll;
+}
+
+#explain{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 180px;
+    padding-top: 100px;
+    word-wrap: break-word;
+}
+
+.property{
+    color: black;
+    font-weight: bold;
+}
+
+.tile{
+    text-decoration: underline rgba(160, 35, 35, 0.397);
+    font-weight: bolder;
+}
+
+#lrn{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20em;
+    margin-top: -4.6em;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.initial{
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (max-width:1470px) {
+  div{
+      display: none;
+  }
+  html:hover{
+      background: linear-gradient(to right, rgb(173, 0, 95), yellow);
+  }
+  
+
